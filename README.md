@@ -1,3 +1,34 @@
+# Table of Contents
+
+<!-- vim-markdown-toc GFM -->
+
+* [Launch KDE/Qt applications with Breeze, Fusion, or Kvantum on Omarchy](#launch-kdeqt-applications-with-breeze-fusion-or-kvantum-on-omarchy)
+    * [Purpose](#purpose)
+    * [Available styles](#available-styles)
+    * [Generic command for any KDE/Qt application](#generic-command-for-any-kdeqt-application)
+    * [LabPlot with Breeze](#labplot-with-breeze)
+    * [LabPlot with Fusion](#labplot-with-fusion)
+    * [LabPlot with Kvantum](#labplot-with-kvantum)
+    * [Drawy with Breeze](#drawy-with-breeze)
+    * [Quickly change an existing override](#quickly-change-an-existing-override)
+    * [Revert an application to the default Omarchy style](#revert-an-application-to-the-default-omarchy-style)
+    * [Useful package names](#useful-package-names)
+    * [Recommended setup](#recommended-setup)
+* [Fix application scaling on HiDPI displays](#fix-application-scaling-on-hidpi-displays)
+    * [Context](#context)
+    * [Test scaling before making it permanent](#test-scaling-before-making-it-permanent)
+    * [Generic command: set style and scaling for any KDE/Qt app](#generic-command-set-style-and-scaling-for-any-kdeqt-app)
+    * [LabPlot with Breeze and 2x scaling](#labplot-with-breeze-and-2x-scaling)
+    * [LabPlot with Fusion and 2x scaling](#labplot-with-fusion-and-2x-scaling)
+    * [Quickly change the scale of an existing override](#quickly-change-the-scale-of-an-existing-override)
+    * [Add scaling to an existing style override](#add-scaling-to-an-existing-style-override)
+    * [Remove scaling but keep the style override](#remove-scaling-but-keep-the-style-override)
+    * [Recommended scale values](#recommended-scale-values)
+    * [Revert the application to the default Omarchy behavior](#revert-the-application-to-the-default-omarchy-behavior)
+
+<!-- vim-markdown-toc -->
+
+
 # Launch KDE/Qt applications with Breeze, Fusion, or Kvantum on Omarchy
 
 ## Purpose
@@ -351,9 +382,9 @@ QT_STYLE_OVERRIDE=kvantum
 to match Omarchy’s default Qt styling.
 
 
-## Fix application scaling on HiDPI displays
+# Fix application scaling on HiDPI displays
 
-### Context
+## Context
 
 Some Qt/KDE applications may appear too small on HiDPI displays.
 
